@@ -140,12 +140,19 @@
     </Manifest>
   </ItemDefinitionGroup>
   <ItemGroup>
+    <ClCompile Include="Lexer\Lexer.cpp" />
     <ClCompile Include="Parser.cpp" />
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="AstNode.h" />
+    <ClInclude Include="AstPrinter.h" />
+    <ClInclude Include="BinaryExpression.h" />
     <ClInclude Include="Expression.h" />
+    <ClInclude Include="Identifier.h" />
     <ClInclude Include="NumberLiteral.h" />
+    <ClInclude Include="Parser.h" />
+    <ClInclude Include="StringLiteral.h" />
+    <ClInclude Include="UnaryExpression.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">

@@ -1,2 +1,5 @@
 #pragma once
-class AstNode{};
+class AstNode{
+public:
+	virtual ~AstNode() = default;
+};

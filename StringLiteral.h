@@ -2,8 +2,8 @@
 #include<iostream>
 #include"Expression.h"
 #include"Lexer/Token.h"
-class NumberLiteral :public Expression {
+class StringLiteral :public Expression {
 public:
 	Token token_;
-	NumberLiteral(Token token) :token_{ std::move(token) }{}
+	StringLiteral(Token token) :token_{ std::move(token) } {}
 };

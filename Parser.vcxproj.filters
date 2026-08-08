@@ -18,6 +18,9 @@
     <ClCompile Include="Parser.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
+    <ClCompile Include="Lexer\Lexer.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="AstNode.h">
@@ -27,6 +30,24 @@
       <Filter>Header Files</Filter>
     </ClInclude>
     <ClInclude Include="NumberLiteral.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Identifier.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="StringLiteral.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="UnaryExpression.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="BinaryExpression.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Parser.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="AstPrinter.h">
       <Filter>Header Files</Filter>
     </ClInclude>
   </ItemGroup>

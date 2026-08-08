@@ -1,3 +1,6 @@
 #pragma once
 #include"AstNode.h"
-class Expression :public AstNode {};
+class Expression :public AstNode {
+public:
+	~Expression() override = default;
+};
